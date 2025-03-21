@@ -11,7 +11,9 @@ The primary goal was to predict the popularity of TV shows based on various feat
 
 # Data Preparation:
 1.	Filtering Data: The dataset was cleaned and preprocessed by filtering the data to include only the years from January 1, 2017, to December 31, 2024, reducing the number of rows to 59,500.
-2.	Uniting Tables: Data was combined and cleaned to remove unnecessary or redundant features.
+2. Handling Redundant Columns: Identical rows were removed, and categories with different names but the same content 
+ were consolidated into a single column. For example: The 'spoken_languages' column was dropped as it was redundant 
+ with the 'languages' column. The 'original_language' column was dropped as it was also covered by 'languages.'etc.
 3.	Cleaning Text: Irrelevant columns like 'tagline', 'created_by', etc., were dropped, while textual columns such as 'overview' were extracted and cleaned for feature engineering.
 4.	Reducing Large Categories: Features such as languages, networks, and genres were converted into dummy variables.
 
