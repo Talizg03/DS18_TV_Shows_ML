@@ -36,6 +36,6 @@ To enhance model performance, new features were created:
 
 # Model Evaluation :
 •	Various regression models, including Linear Regression, Decision Tree, Random Forest, AdaBoost, Gradient Boosting, SVM, and XGBoost, were trained to predict TV show popularity. Random Forest outperformed all other models, showing the lowest MSE, RMSE, and MAE. SVM had higher errors, and AdaBoost performed the worst.
-•	Hyperparameter tuning with RandomizedSearchCV improved the Random Forest model by by reducing the MAE by 7.32% and the RMSE by 13%. Key tuned parameters included n_estimators, max_features, and max_depth.
+•	 The optimized model showed a 2.40% improvement in Mean Absolute Error (MAE), indicating a slight reduction in prediction errors compared to the base model.The model's performance is not satisfactory. We will not proceed with sending it to production.
 
 
