@@ -32,7 +32,7 @@ To enhance model performance, new features were created:
 •	Text Analysis: A word cloud was generated to identify the most frequent words in the name and overview features. Sentiment analysis was also performed on the overview column.
 
 # Model Selection and Fine-Tuning:
-•	Various regression models were tested, including Lasso, Random Forest Regressor, XGBoost, and Ridge. Hyperparameter optimization was performed on these models to find the best-performing one for predicting TV show popularity. The best model was selected based on performance metrics like MSE, RMSE, MAE, and RMSLE.
+•	Various regression models were tested, including Lasso, Random Forest Regressor, XGBoost, and Ridge. Hyperparameter optimization was performed on these models to find the best-performing one for predicting TV show popularity. The best model was selected based on performance metrics like MSE, RMSE, MAE, and RMSLE. As a result of this selection, the number of rows decreased from 71 to 34, indicating that only 34 features met the selection criteria and were kept for further analysis.
 
 # Model Evaluation :
 •	Various regression models, including Linear Regression, Decision Tree, Random Forest, AdaBoost, Gradient Boosting, SVM, and XGBoost, were trained to predict TV show popularity. Random Forest outperformed all other models, showing the lowest MSE, RMSE, and MAE. SVM had higher errors, and AdaBoost performed the worst.
