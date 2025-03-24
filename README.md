@@ -25,8 +25,8 @@ EDA was performed to visually explore relationships between continuous features 
 2.	Missing Values: For missing data in categorical features, Random Forest imputation was applied after earlier attempts using KNN and MICE proved less effective.
 
 # Feature Engineering:
-To enhance model performance, new features were created:
-•	Year extraction: Extracted year information from the first_air_date and last_air_date.
+ After evaluating the model's performance, which resulted in a relatively low R² value, the data was filtered once more to include only records between 01/01/2022 and 31/12/2023.
+ New features:
 •	Duration calculation: Calculated the duration between these air dates.
 •	Number of Seasons: Determined the number of seasons from the air dates.
 •	Text Analysis: A word cloud was generated to identify the most frequent words in the name and overview features. Sentiment analysis was also performed on the overview column.
