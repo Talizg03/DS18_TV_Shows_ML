@@ -36,6 +36,8 @@ EDA was performed to visually explore relationships between continuous features 
 
 # Model Evaluation :
 •	Various regression models, including Linear Regression, Decision Tree, Random Forest, AdaBoost, Gradient Boosting, SVM, and XGBoost, were trained to predict TV show popularity. Random Forest outperformed all other models, showing the lowest MSE, RMSE, and MAE. SVM had higher errors, and AdaBoost performed the worst.
-•	 The optimized model showed a 2.40% improvement in Mean Absolute Error (MAE), indicating a slight reduction in prediction errors compared to the base model.The model's performance is not satisfactory. We will not proceed with sending it to production.
+•	 RandomizedSearchCV and XGBRegressor were employed to search for the best hyperparameters. XGBoost showed better improvements in MAE and RMSE compared to Random Forest Regressor, especially in terms of MAE (18.67% vs. 5.15%).
+
+While the XGBoost model showed significant improvements, further enhancements—such as additional model tuning, exploring different algorithms, or refining feature engineering—are necessary before considering production deployment.
 
 
