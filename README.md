@@ -1,6 +1,6 @@
 # Project Overview: Predicting TV Show Popularity Using Machine Learning
 # Research Question:
-How could genres, languages, and other factors predict the popularity of TV shows?
+How can genres, languages, and other factors predict the popularity of TV shows?
 The goal of this project was to predict TV show popularity using various features such as genres, languages, vote counts, and other relevant characteristics. By analyzing the TMDB TV Shows Dataset, which contains data for over 150,000 TV shows, the project aimed to explore the relationships between these factors and a show's popularity. The objective was to develop a system that could predict trends in TV show popularity, providing valuable insights for content creators, distributors, and streaming platforms.
 
 # Dataset Overview:
